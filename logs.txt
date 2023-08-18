@@ -1,0 +1,419 @@
+[2023-08-15T10:59:18.896Z] [
+  {
+    "firstName": "waiz",
+    "lastName": "qasim",
+    "age": 25,
+    "salary": 25544
+  }
+]
+[2023-08-15T11:00:59.282Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "ahmed",
+      "origin": "DB",
+      "instance": {
+        "salary": 0,
+        "firstName": "ahmed",
+        "lastName": "khan"
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahmed' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);",
+    "parameters": [
+      "ahmed",
+      "khan",
+      0
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahmed' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);",
+    "parameters": [
+      "ahmed",
+      "khan",
+      0
+    ]
+  },
+  "fields": {
+    "PRIMARY": "ahmed"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);"
+}
+[2023-08-15T11:21:35.853Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "ahmed",
+      "origin": "DB",
+      "instance": {
+        "salary": 0,
+        "firstName": "ahmed",
+        "lastName": "khan"
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahmed' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);",
+    "parameters": [
+      "ahmed",
+      "khan",
+      0
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahmed' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);",
+    "parameters": [
+      "ahmed",
+      "khan",
+      0
+    ]
+  },
+  "fields": {
+    "PRIMARY": "ahmed"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`salary`) VALUES (?,?,?);"
+}
+[2023-08-15T11:21:46.607Z] [
+  {
+    "firstName": "waiz",
+    "lastName": "qasim",
+    "age": 25,
+    "salary": 25544
+  }
+]
+[2023-08-17T05:45:25.984Z] {
+  "firstName": "sobia ",
+  "lastName": "ahmed",
+  "age": "16",
+  "salary": "987"
+}
+[2023-08-17T05:45:46.949Z] {
+  "firstName": "ahaha",
+  "lastName": "hi",
+  "age": "123",
+  "salary": "2500"
+}
+[2023-08-17T05:45:49.696Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "ahaha",
+      "origin": "DB",
+      "instance": {
+        "firstName": "ahaha",
+        "lastName": "hi",
+        "age": "123",
+        "salary": "2500"
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahaha' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "ahaha",
+      "hi",
+      "123",
+      "2500"
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahaha' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "ahaha",
+      "hi",
+      "123",
+      "2500"
+    ]
+  },
+  "fields": {
+    "PRIMARY": "ahaha"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);"
+}
+[2023-08-17T05:45:49.920Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "ahaha",
+      "origin": "DB",
+      "instance": {
+        "firstName": "ahaha",
+        "lastName": "hi",
+        "age": "123",
+        "salary": "2500"
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahaha' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "ahaha",
+      "hi",
+      "123",
+      "2500"
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'ahaha' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "ahaha",
+      "hi",
+      "123",
+      "2500"
+    ]
+  },
+  "fields": {
+    "PRIMARY": "ahaha"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);"
+}
+[2023-08-17T05:50:23.212Z] {
+  "firstName": "tyu",
+  "lastName": "hi",
+  "age": "123",
+  "salary": "2500"
+}
+[2023-08-17T05:51:22.270Z] {
+  "firstName": "kabcxkabk",
+  "lastName": "nclnwel",
+  "age": "12",
+  "salary": "25"
+}
+[2023-08-17T05:52:19.788Z] {
+  "firstName": "kabc",
+  "lastName": "nclnwel",
+  "age": "12",
+  "salary": "25"
+}
+[2023-08-17T05:52:58.741Z] {
+  "firstName": "kabcggg",
+  "lastName": "nclnwel",
+  "age": "12",
+  "salary": "25"
+}
+[2023-08-17T11:01:37.930Z] {
+  "firstName": "yes",
+  "lastName": "no",
+  "age": 75,
+  "salary": 78
+}
+[2023-08-17T12:11:57.297Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "yes",
+      "origin": "DB",
+      "instance": {
+        "firstName": "yes",
+        "lastName": "no",
+        "age": 75,
+        "salary": 78
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "fields": {
+    "PRIMARY": "yes"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);"
+}
+[2023-08-17T12:12:31.911Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "yes",
+      "origin": "DB",
+      "instance": {
+        "firstName": "yes",
+        "lastName": "no",
+        "age": 75,
+        "salary": 78
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "fields": {
+    "PRIMARY": "yes"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);"
+}
+[2023-08-17T12:14:48.894Z] {
+  "name": "SequelizeUniqueConstraintError",
+  "errors": [
+    {
+      "message": "PRIMARY must be unique",
+      "type": "unique violation",
+      "path": "PRIMARY",
+      "value": "yes",
+      "origin": "DB",
+      "instance": {
+        "firstName": "yes",
+        "lastName": "no",
+        "age": 75,
+        "salary": 78
+      },
+      "validatorKey": "not_unique",
+      "validatorName": null,
+      "validatorArgs": []
+    }
+  ],
+  "parent": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "original": {
+    "code": "ER_DUP_ENTRY",
+    "errno": 1062,
+    "sqlState": "23000",
+    "sqlMessage": "Duplicate entry 'yes' for key 'employee.PRIMARY'",
+    "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);",
+    "parameters": [
+      "yes",
+      "no",
+      75,
+      78
+    ]
+  },
+  "fields": {
+    "PRIMARY": "yes"
+  },
+  "sql": "INSERT INTO `Employee` (`firstName`,`lastName`,`age`,`salary`) VALUES (?,?,?,?);"
+}
+[2023-08-17T12:18:01.092Z] {
+  "firstName": "ye",
+  "lastName": "no",
+  "age": 75,
+  "salary": 78
+}
+[2023-08-17T12:46:28.501Z] {
+  "salary": 0,
+  "firstName": "algam"
+}
